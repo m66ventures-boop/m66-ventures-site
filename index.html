@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M66 Ventures — Building the Future, One Venture at a Time</title>
+  <meta name="description" content="M66 Ventures, LLC is a privately held venture group building scalable, technology-driven and service-oriented brands across AI, premium services, lifestyle and consumer products." />
+  <meta name="theme-color" content="#0A0A0C" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="M66 Ventures" />
+  <meta property="og:description" content="A diversified portfolio of AI, services, lifestyle and consumer brands — built with precision, vision and operational excellence." />
+  <meta property="og:image" content="assets/m66-logo.png" />
+
+  <link rel="icon" type="image/png" href="assets/m66-logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="M66 Ventures home">
+        <span class="brand__mark">M66</span>
+        <span class="brand__word">VENTURES</span>
+        <span class="brand__emblem" aria-hidden="true"><i></i><i></i><i></i></span>
+      </a>
+
+      <nav class="nav__menu" aria-label="Primary">
+        <a class="nav__link" href="#about">About</a>
+
+        <div class="dropdown" id="dropdown">
+          <button class="nav__link dropdown__btn" id="dropdownBtn" aria-haspopup="true" aria-expanded="false" aria-controls="dropdownMenu">
+            Portfolio Companies
+            <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+
+          <div class="dropdown__menu" id="dropdownMenu" role="menu" aria-label="Portfolio Companies">
+            <a class="pc" role="menuitem" href="https://aureliumlabs.ai" target="_blank" rel="noopener">
+              <span class="pc__name">Aurelium Labs</span>
+              <span class="pc__desc">AI automation &amp; agent systems · mobile app builds</span>
+              <svg class="pc__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <a class="pc" role="menuitem" href="https://nextpage-studios.vercel.app" target="_blank" rel="noopener">
+              <span class="pc__name">NextPage Studios</span>
+              <span class="pc__desc">Digital media &amp; content</span>
+              <svg class="pc__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <span class="pc pc--soon" role="menuitem" aria-disabled="true">
+              <span class="pc__name">Hammer &amp; Rose</span>
+              <span class="pc__desc">Home services &amp; contractor matching for the elderly</span>
+              <span class="pc__tag">Coming soon</span>
+            </span>
+            <span class="pc pc--soon" role="menuitem" aria-disabled="true">
+              <span class="pc__name">Meadows &amp; Muse</span>
+              <span class="pc__desc">Retreat development company</span>
+              <span class="pc__tag">Coming soon</span>
+            </span>
+            <span class="pc pc--soon" role="menuitem" aria-disabled="true">
+              <span class="pc__name">Livi Brands</span>
+              <span class="pc__desc">Home services group</span>
+              <span class="pc__tag">Coming soon</span>
+            </span>
+          </div>
+        </div>
+
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__glow"></div>
+        <svg class="hero__lines" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" fill="none">
+          <path d="M-50 720 Q 360 560 720 660 T 1490 580" stroke="url(#g1)" stroke-width="1" />
+          <path d="M-50 800 Q 420 640 760 740 T 1490 660" stroke="url(#g1)" stroke-width="1" />
+          <path d="M-50 180 Q 380 320 760 240 T 1490 320" stroke="url(#g1)" stroke-width="1" />
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#BF953F" stop-opacity="0" />
+              <stop offset="0.5" stop-color="#FCF6BA" stop-opacity="0.55" />
+              <stop offset="1" stop-color="#AA771C" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="hero__inner">
+        <p class="eyebrow reveal">M66 Ventures, LLC</p>
+        <h1 class="hero__title reveal" data-delay="1">Focused Capital. Strategic Execution.<br /><span class="gold">Real Growth.</span></h1>
+        <p class="hero__sub reveal" data-delay="2">We pair focused capital with hands-on execution to build durable, profitable companies — a diversified portfolio across AI, premium services, lifestyle and consumer brands.</p>
+        <div class="hero__cta reveal" data-delay="3">
+          <a class="btn btn--gold" href="#holdings">Portfolio Companies</a>
+          <a class="btn btn--ghost" href="#contact">Contact M66 Ventures</a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#about" aria-label="Scroll to About">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <p class="kicker reveal">About</p>
+        <h2 class="section__title reveal" data-delay="1">A structured, multi-brand venture group.</h2>
+        <p class="about__lead reveal" data-delay="2">
+          M66 Ventures, LLC is a privately held venture group focused on building scalable, technology-driven and service-oriented brands. Our portfolio spans AI automation, premium concierge services, home services, media and consumer products. We combine strategic vision with hands-on operational execution to create companies that are both profitable and enduring.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== HOLDINGS ===================== -->
+    <section class="section holdings" id="holdings">
+      <div class="container">
+        <p class="kicker reveal">Portfolio Companies</p>
+        <h2 class="section__title reveal" data-delay="1">The M66 ecosystem.</h2>
+        <p class="section__intro reveal" data-delay="2">A focused group of brands across AI, services, lifestyle and media — each built to lead its category.</p>
+
+        <div class="grid">
+          <a class="card reveal" href="https://aureliumlabs.ai" target="_blank" rel="noopener">
+            <span class="card__mono" aria-hidden="true">AL</span>
+            <h3 class="card__name">Aurelium Labs</h3>
+            <p class="card__desc">AI automation &amp; agent systems, mobile app builds.</p>
+            <span class="card__link">Visit Website
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
+          </a>
+
+          <a class="card reveal" data-delay="1" href="https://nextpage-studios.vercel.app" target="_blank" rel="noopener">
+            <span class="card__mono" aria-hidden="true">NP</span>
+            <h3 class="card__name">NextPage Studios</h3>
+            <p class="card__desc">Digital media &amp; content.</p>
+            <span class="card__link">Visit Website
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
+          </a>
+
+          <div class="card card--soon reveal" data-delay="2">
+            <span class="card__mono" aria-hidden="true">H&amp;R</span>
+            <h3 class="card__name">Hammer &amp; Rose</h3>
+            <p class="card__desc">Home services &amp; contractor matching for the elderly.</p>
+            <span class="card__tag">Coming soon</span>
+          </div>
+
+          <div class="card card--soon reveal" data-delay="1">
+            <span class="card__mono" aria-hidden="true">M&amp;M</span>
+            <h3 class="card__name">Meadows &amp; Muse</h3>
+            <p class="card__desc">Retreat development company.</p>
+            <span class="card__tag">Coming soon</span>
+          </div>
+
+          <div class="card card--soon reveal" data-delay="2">
+            <span class="card__mono" aria-hidden="true">LB</span>
+            <h3 class="card__name">Livi Brands</h3>
+            <p class="card__desc">Home services group.</p>
+            <span class="card__tag">Coming soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PHILOSOPHY ===================== -->
+    <section class="section philosophy" id="philosophy">
+      <div class="container">
+        <p class="kicker reveal">Our Approach</p>
+        <h2 class="section__title reveal" data-delay="1">How we build.</h2>
+
+        <div class="pillars">
+          <div class="pillar reveal">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"></path><path d="M14 17H5"></path><circle cx="17" cy="17" r="3"></circle><circle cx="7" cy="7" r="3"></circle></svg>
+            </span>
+            <h3 class="pillar__title">Operational Excellence</h3>
+            <p class="pillar__text">Every brand is built with systems, automation and repeatable processes.</p>
+          </div>
+
+          <div class="pillar reveal" data-delay="1">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+            </span>
+            <h3 class="pillar__title">Design-Driven</h3>
+            <p class="pillar__text">Premium branding and user experience across all ventures.</p>
+          </div>
+
+          <div class="pillar reveal" data-delay="2">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"></path></svg>
+            </span>
+            <h3 class="pillar__title">AI-First Thinking</h3>
+            <p class="pillar__text">Intelligent automation baked into every business model.</p>
+          </div>
+
+          <div class="pillar reveal" data-delay="3">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+            </span>
+            <h3 class="pillar__title">Long-Term Value</h3>
+            <p class="pillar__text">We build companies designed to last, not hype cycles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="container container--narrow">
+        <p class="kicker reveal">Contact</p>
+        <h2 class="section__title reveal" data-delay="1">Let's talk.</h2>
+        <p class="section__intro reveal" data-delay="2">For partnership, investment or general inquiries, reach the M66 Ventures team.</p>
+
+        <form class="form reveal" data-delay="2" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="company">Company <span class="opt">(optional)</span></label>
+            <input type="text" id="company" name="company" autocomplete="organization" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold form__submit" id="submitBtn">Send Message</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <p class="contact__email reveal">
+          Or email <a href="mailto:legal@m66ventures.com">legal@m66ventures.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand brand--sm" href="#top" aria-label="M66 Ventures home">
+        <span class="brand__mark">M66</span>
+        <span class="brand__word">VENTURES</span>
+      </a>
+      <p class="footer__copy">M66 Ventures, LLC © <span id="year">2026</span></p>
+      <nav class="footer__links" aria-label="Legal">
+        <a href="#" data-legal="privacy">Privacy Policy</a>
+        <a href="#" data-legal="terms">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
