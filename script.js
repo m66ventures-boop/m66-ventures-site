@@ -7,8 +7,8 @@
   /* ----- Supabase config (contact form) -----
      Filled in once the M66 Supabase project + `leads` table exist.
      Until then the form degrades gracefully to a mailto fallback. */
-  var SUPABASE_URL = '';
-  var SUPABASE_KEY = '';
+  var SUPABASE_URL = 'https://rjzsjrslemquftesaumr.supabase.co';
+  var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJqenNqcnNsZW1xdWZ0ZXNhdW1yIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MzMzMDQsImV4cCI6MjA5NzMwOTMwNH0.jWI3huE7LW-4ssb5ip6Q4lSjAx77ei1Dpw7SCRBO2sI';
   var CONTACT_EMAIL = 'legal@m66ventures.com';
 
   var $ = function (s, ctx) { return (ctx || document).querySelector(s); };
@@ -87,15 +87,6 @@
   } else {
     reveals.forEach(function (el) { el.classList.add('is-visible'); });
   }
-
-  /* ---------- legal placeholders ---------- */
-  document.querySelectorAll('[data-legal]').forEach(function (a) {
-    a.addEventListener('click', function (e) {
-      e.preventDefault();
-      alert('A ' + (a.dataset.legal === 'privacy' ? 'Privacy Policy' : 'Terms of Service') +
-            ' page will be linked here before launch.');
-    });
-  });
 
   /* ---------- contact form ---------- */
   var form = $('#contactForm');
