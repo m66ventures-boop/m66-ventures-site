@@ -22,7 +22,6 @@ Then open http://localhost:4720
 | NextPage Studios | live | https://nextpagestudios.com |
 | Hammer & Rose | live | https://hammer-rose.com |
 | Meadows & Muse | coming soon | — |
-| Livi Brands | coming soon | — |
 
 ## Contact form
 Built **Supabase-ready**: set `SUPABASE_URL` + `SUPABASE_KEY` at the top of `script.js` and create a
