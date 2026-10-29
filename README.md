@@ -19,8 +19,8 @@ Then open http://localhost:4720
 | Company | Status | Link |
 |---|---|---|
 | Aurelium Labs | live | https://aureliumlabs.ai |
-| NextPage Studios | live | https://nextpage-studios.vercel.app |
-| Hammer & Rose | coming soon | — |
+| NextPage Studios | live | https://nextpagestudios.com |
+| Hammer & Rose | live | https://hammer-rose.com |
 | Meadows & Muse | coming soon | — |
 | Livi Brands | coming soon | — |
 
